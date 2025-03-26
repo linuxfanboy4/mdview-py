@@ -30,6 +30,6 @@ jobs:
       - name: Publish to PyPI
         env:
           TWINE_USERNAME: ${{ secrets.PYPI_USERNAME }}
-          TWINE_PASSWORD: ${{ secrets.PYPI_PASSWORD }}
+          TWINE_PASSWORD: ${{ secrets.PYPI_API_TOKEM }}
         run: |
           twine upload dist/mdview6-6.8.3-py3-none-any.whl
