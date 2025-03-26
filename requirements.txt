@@ -1,0 +1,5 @@
+rich
+markdown2
+pygments
+h
+requests
